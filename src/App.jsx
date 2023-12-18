@@ -3,6 +3,8 @@ import TituloSecundario from "./components/TituloSecundario";
 
 function App() {
   //aqui agregamos la logica del componente
+const anioActual = new Date();
+
 
   return (
     //qui puedo agregar un poquito mas de logica
@@ -16,8 +18,8 @@ function App() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi
         tenetur deleniti,<br /> dolorum ab dolore modi id. Sed, culpa dolorum?
       </p>
-      <TituloSecundario></TituloSecundario>
-      {/* <TituloSecundario/> */}
+      <TituloSecundario comision="c75i" anioActualProps={anioActual.getFullYear()} ></TituloSecundario>
+      {/* <TituloSecundario comision="c75i-el props"/> */}
     </section>
   );
 }

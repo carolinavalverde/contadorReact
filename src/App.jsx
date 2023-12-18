@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import TituloSecundario from "./components/TituloSecundario";
 
 function App() {
   //aqui agregamos la logica del componente
@@ -13,8 +14,10 @@ function App() {
       </h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi
-        tenetur deleniti, dolorum ab dolore modi id. Sed, culpa dolorum?
+        tenetur deleniti,<br /> dolorum ab dolore modi id. Sed, culpa dolorum?
       </p>
+      <TituloSecundario></TituloSecundario>
+      {/* <TituloSecundario/> */}
     </section>
   );
 }

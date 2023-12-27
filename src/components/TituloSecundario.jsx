@@ -1,4 +1,4 @@
-const TituloSecundario = (props) => {
+const TituloSecundario = (comision, anioActualProps) => {
   return (
     <>
       <h2>Titulo generado con props de la comision: {props.comision}</h2>;
